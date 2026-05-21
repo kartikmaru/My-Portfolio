@@ -32,7 +32,7 @@ export default function Contact() {
 
   const contactInfo = [
     { icon: "✉️", label: "EMAIL",    value: "kartikmaru2001@gmail.com",   href: "mailto:kartikmaru2001@gmail.com" },
-    { icon: "💼", label: "LINKEDIN", value: "linkedin.com/in/kartikmaru", href: "https://linkedin.com/" },
+    { icon: "💼", label: "LINKEDIN", value: "linkedin.com/in/kartik-maru-263408293", href: "https://www.linkedin.com/in/kartik-maru-263408293/" },
     { icon: "🐙", label: "GITHUB",   value: "github.com/kartikmaru",      href: "https://github.com/" },
     { icon: "📍", label: "LOCATION", value: "Sumer Nagar, Maansarovar, Jaipur, India", href: null },
   ];

@@ -34,7 +34,7 @@ export default function Footer() {
               <div className="flex gap-3">
                 {[
                   { href: "https://github.com/", label: "GitHub" },
-                  { href: "https://linkedin.com/", label: "LinkedIn" },
+                  { href: "https://www.linkedin.com/in/kartik-maru-263408293/", label: "LinkedIn" },
                   { href: "mailto:kartik@example.com", label: "Email" },
                 ].map((s) => (
                   <a key={s.label} href={s.href} target={s.href.startsWith("mailto") ? undefined : "_blank"}
