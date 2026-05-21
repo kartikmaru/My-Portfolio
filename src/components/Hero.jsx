@@ -112,8 +112,18 @@ export default function Hero() {
               className="bg-purple-600 hover:bg-purple-700 text-white px-7 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
               View My Work
             </a>
+            <a
+              href="/resume.pdf"
+              download="Kartik_Maru_Resume.pdf"
+              className="flex items-center gap-2 border border-purple-500 text-purple-300 hover:bg-purple-900/30 px-7 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              </svg>
+              Download CV
+            </a>
             <a href="#contact"
-              className="border border-purple-500 text-purple-300 hover:bg-purple-900/30 px-7 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105">
+              className="border border-gray-600 text-gray-300 hover:bg-gray-800/50 px-7 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105">
               Get In Touch
             </a>
           </motion.div>

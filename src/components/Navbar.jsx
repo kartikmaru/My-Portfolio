@@ -45,12 +45,25 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
-          href="#contact"
-          className="hidden md:inline-block bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-200"
-        >
-          Hire Me
-        </a>
+        {/* Desktop buttons */}
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="/resume.pdf"
+            download="Kartik_Maru_Resume.pdf"
+            className="flex items-center gap-1.5 border border-purple-500/60 text-purple-300 hover:bg-purple-900/30 hover:border-purple-400 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105"
+          >
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            </svg>
+            Resume
+          </a>
+          <a
+            href="#contact"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 hover:shadow-lg hover:shadow-purple-500/25"
+          >
+            Hire Me
+          </a>
+        </div>
 
         <button
           className="md:hidden text-white focus:outline-none"
@@ -86,6 +99,18 @@ export default function Navbar() {
                 className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors duration-200 mt-2"
               >
                 Hire Me
+              </a>
+            </li>
+            <li>
+              <a
+                href="/resume.pdf"
+                download="Kartik_Maru_Resume.pdf"
+                className="inline-flex items-center gap-1.5 border border-purple-500/60 text-purple-300 hover:bg-purple-900/30 px-5 py-2 rounded-full text-sm font-medium transition-colors duration-200"
+              >
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                </svg>
+                Download Resume
               </a>
             </li>
           </ul>
